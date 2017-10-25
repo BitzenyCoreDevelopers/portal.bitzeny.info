@@ -1,0 +1,83 @@
+@charset "UTF-8";
+.center {
+  text-align: center;
+}
+
+.lighter {
+  font-weight: lighter;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.space-button {
+  margin-top: 1em;
+}
+
+.jumbotron-back {
+  background-image: url("../images/rough-horn.jpg");
+  background-size: cover;
+  background-position: center 60%;
+}
+
+.white {
+  color: #fff;
+}
+
+.img-cover {
+  object-fit: cover;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 3px #000;
+}
+
+.border-radius {
+  border-radius: 0 0 0 0;
+}
+
+.background-black {
+  background: linear-gradient(-135deg, #2E4053, #2ECC71);
+}
+
+.twitter {
+  color: #55acee;
+}
+
+.windows-lightblue {
+  color: #00adef;
+}
+
+.download-original {
+  border-color: #00adef;
+  background-color: #00adef;
+  color: #000;
+}
+
+.download-original:hover {
+  background-color: #2e9afe;
+  border-color: inherit;
+  color: #000;
+}
+
+.grid--borderBetween>[class*='col-']:before, .grid--borderBetween>[class*='col-']:after {
+  background: #b2b2b2;
+  bottom: 0;
+  content: " ";
+  position: absolute;
+  width: 1px;
+  top: 0;
+}
+
+.grid--borderBetween>[class*='col-']:before {
+  left: 0;
+}
+
+.grid--borderBetween>[class*='col-']:after {
+  right: -1px;
+}
+
+.grid--borderBetween>[class*='col-']:first-child:before, .grid--borderBetween>[class*='col-']:last-child:after {
+  display: none;
+}
